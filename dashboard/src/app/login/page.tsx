@@ -6,7 +6,9 @@ export default function LoginPage() {
     <Suspense
       fallback={
         <div className="login-page">
-          <div className="login-card login-card-loading">Loading…</div>
+          <div className="login-shell login-shell--loading">
+            <div className="login-card-loading">Loading…</div>
+          </div>
         </div>
       }
     >
