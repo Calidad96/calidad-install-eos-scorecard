@@ -1158,7 +1158,8 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.25rem;
+  gap: 1.5rem;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -1171,13 +1172,59 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
   background: transparent;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
   .brand-logo-wrap--login {
     align-items: flex-start;
   }
+}
+
+/* Single stacked product label — Install / EOS L10 Scorecard */
+.product-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.product-label--login {
+  align-items: center;
+  text-align: center;
+}
+
+.product-label--sidebar {
+  align-items: flex-start;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .product-label--login {
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+.product-label-dept {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+  line-height: 1.2;
+}
+
+.product-label-title {
+  margin: 0;
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  color: var(--ink);
 }
 
 .login-brand-copy {
@@ -1194,31 +1241,6 @@ code {
   }
 }
 
-.login-product-header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 0.625rem;
-}
-
-@media (min-width: 768px) {
-  .login-product-header {
-    justify-content: flex-start;
-  }
-}
-
-.login-brand-title {
-  margin: 0;
-  font-family: var(--font-display), sans-serif;
-  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  line-height: 1.2;
-  color: var(--ink);
-  white-space: nowrap;
-}
-
 .login-brand-desc {
   margin: 0;
   max-width: 22rem;
@@ -1229,7 +1251,6 @@ code {
 
 @media (min-width: 768px) {
   .login-brand-desc {
-    margin-left: 0;
     margin-right: auto;
   }
 }

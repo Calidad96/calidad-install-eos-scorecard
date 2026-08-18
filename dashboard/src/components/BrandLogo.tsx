@@ -1,11 +1,11 @@
 import Image from 'next/image';
 
 type BrandLogoProps = {
-  /** sidebar = dashboard nav with product line; login = logo only */
+  /** sidebar = dashboard nav; login = logo + stacked product label */
   variant?: 'sidebar' | 'login';
 };
 
-/** Calidad corporate logo + Install EOS product line */
+/** Calidad corporate logo + Install EOS product label */
 export function BrandLogo({ variant = 'sidebar' }: BrandLogoProps) {
   const isLogin = variant === 'login';
 
@@ -21,14 +21,11 @@ export function BrandLogo({ variant = 'sidebar' }: BrandLogoProps) {
         }`}
         priority
       />
-      {!isLogin && (
-        <div className="install-product-line mt-3 flex items-center gap-2">
-          <span className="install-product-badge">Install</span>
-          <span className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-[var(--gold)]">
-            EOS L10 Scorecard
-          </span>
-        </div>
-      )}
+
+      <div className={`product-label ${isLogin ? 'product-label--login' : 'product-label--sidebar mt-3'}`}>
+        <p className="product-label-dept">Install</p>
+        <p className="product-label-title">EOS L10 Scorecard</p>
+      </div>
     </div>
   );
 }
