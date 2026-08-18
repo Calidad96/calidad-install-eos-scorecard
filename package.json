@@ -1,0 +1,14 @@
+{
+  "name": "install-eos-scorecard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "inspect": "node scripts/inspect-install-boards.mjs",
+    "setup-hub": "node src/scripts/setup-hub.js",
+    "sync": "node src/scripts/sync-all.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

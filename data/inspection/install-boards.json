@@ -1,0 +1,3352 @@
+{
+  "accountability": {
+    "key": "accountability",
+    "id": "18425615142",
+    "label": "EOS-1 Accountability Chart",
+    "board": {
+      "id": "18425615142",
+      "name": "(EOS-1) Install Accountability Chart",
+      "columns": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "name"
+        },
+        {
+          "id": "text_mm60asb5",
+          "title": "Position",
+          "type": "text"
+        },
+        {
+          "id": "board_relation_mm606fte",
+          "title": "Reports To",
+          "type": "board_relation"
+        },
+        {
+          "id": "board_relation_mm607j9r",
+          "title": "Department",
+          "type": "board_relation"
+        },
+        {
+          "id": "lookup_mm60z8eb",
+          "title": "Manager",
+          "type": "mirror"
+        },
+        {
+          "id": "doc_mm6074jx",
+          "title": "Accountability Charts",
+          "type": "doc"
+        },
+        {
+          "id": "color_mm6466ek",
+          "title": "Status",
+          "type": "status"
+        }
+      ],
+      "items_page": {
+        "items": [
+          {
+            "id": "11000597308",
+            "name": "None",
+            "column_values": [
+              {
+                "text": "Project Manager",
+                "column": {
+                  "title": "Position",
+                  "type": "text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Reports To",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Manager",
+                  "type": "mirror"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Accountability Charts",
+                  "type": "doc"
+                }
+              },
+              {
+                "text": "New",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              }
+            ]
+          },
+          {
+            "id": "11000617908",
+            "name": "Luis",
+            "column_values": [
+              {
+                "text": "Director of Installation",
+                "column": {
+                  "title": "Position",
+                  "type": "text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Reports To",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Manager",
+                  "type": "mirror"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Accountability Charts",
+                  "type": "doc"
+                }
+              },
+              {
+                "text": "New",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              }
+            ]
+          },
+          {
+            "id": "11000686275",
+            "name": "George",
+            "column_values": [
+              {
+                "text": "General Foreman",
+                "column": {
+                  "title": "Position",
+                  "type": "text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Reports To",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Manager",
+                  "type": "mirror"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Accountability Charts",
+                  "type": "doc"
+                }
+              },
+              {
+                "text": "New",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              }
+            ]
+          },
+          {
+            "id": "11000720339",
+            "name": "Low Voltage Technician L1",
+            "column_values": [
+              {
+                "text": "Low Voltage Technician L1",
+                "column": {
+                  "title": "Position",
+                  "type": "text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Reports To",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Manager",
+                  "type": "mirror"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Accountability Charts",
+                  "type": "doc"
+                }
+              },
+              {
+                "text": "New",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              }
+            ]
+          },
+          {
+            "id": "11308021052",
+            "name": "Low Voltage Technician L2",
+            "column_values": [
+              {
+                "text": "Low Voltage Technician L2",
+                "column": {
+                  "title": "Position",
+                  "type": "text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Reports To",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Manager",
+                  "type": "mirror"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Accountability Charts",
+                  "type": "doc"
+                }
+              },
+              {
+                "text": "New",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "weeklyScorecard": {
+    "key": "weeklyScorecard",
+    "id": "18425615152",
+    "label": "EOS-2 Weekly Scorecard",
+    "board": {
+      "id": "18425615152",
+      "name": "(EOS-2) Install Weekly Scorecard",
+      "columns": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "name"
+        },
+        {
+          "id": "multiple_person_mm60g91",
+          "title": "Accountable",
+          "type": "people"
+        },
+        {
+          "id": "multiple_person_mm60tf3",
+          "title": "Who Updates",
+          "type": "people"
+        },
+        {
+          "id": "board_relation_mm606std",
+          "title": "Department",
+          "type": "board_relation"
+        },
+        {
+          "id": "dropdown_mm60aqh1",
+          "title": "Category",
+          "type": "dropdown"
+        },
+        {
+          "id": "dropdown_mm608t0a",
+          "title": "Type",
+          "type": "dropdown"
+        },
+        {
+          "id": "numeric_mm60zd61",
+          "title": "Target",
+          "type": "numbers"
+        },
+        {
+          "id": "dropdown_mm60knkp",
+          "title": "Goal Direction",
+          "type": "dropdown"
+        },
+        {
+          "id": "numeric_mm602e0d",
+          "title": "W1",
+          "type": "numbers"
+        },
+        {
+          "id": "numeric_mm607zqn",
+          "title": "W2",
+          "type": "numbers"
+        },
+        {
+          "id": "numeric_mm60bsrd",
+          "title": "W3",
+          "type": "numbers"
+        },
+        {
+          "id": "numeric_mm60nkm9",
+          "title": "W4",
+          "type": "numbers"
+        },
+        {
+          "id": "numeric_mm60pre8",
+          "title": "W5",
+          "type": "numbers"
+        },
+        {
+          "id": "numeric_mm60ckpy",
+          "title": "W6",
+          "type": "numbers"
+        },
+        {
+          "id": "numeric_mm60spmv",
+          "title": "W7",
+          "type": "numbers"
+        },
+        {
+          "id": "numeric_mm60j72e",
+          "title": "W8",
+          "type": "numbers"
+        },
+        {
+          "id": "numeric_mm60ckrg",
+          "title": "W9",
+          "type": "numbers"
+        },
+        {
+          "id": "numeric_mm605vek",
+          "title": "W10",
+          "type": "numbers"
+        },
+        {
+          "id": "numeric_mm60z0ec",
+          "title": "W11",
+          "type": "numbers"
+        },
+        {
+          "id": "numeric_mm60ktzw",
+          "title": "W12",
+          "type": "numbers"
+        },
+        {
+          "id": "numeric_mm60ryn2",
+          "title": "W13",
+          "type": "numbers"
+        },
+        {
+          "id": "text_mm60k12d",
+          "title": "How to Calculate",
+          "type": "text"
+        },
+        {
+          "id": "formula_mm60za16",
+          "title": "Quarter Average",
+          "type": "formula"
+        },
+        {
+          "id": "formula_mm60qjns",
+          "title": "KPI Score (Out of 5)",
+          "type": "formula"
+        },
+        {
+          "id": "dropdown_mm63thx9",
+          "title": "Year",
+          "type": "dropdown"
+        },
+        {
+          "id": "color_mm63za21",
+          "title": "Off Track?",
+          "type": "status"
+        },
+        {
+          "id": "numeric_mm635529",
+          "title": "Consecutive Misses",
+          "type": "numbers"
+        }
+      ],
+      "items_page": {
+        "items": [
+          {
+            "id": "12749304191",
+            "name": "Install Department OT",
+            "column_values": [
+              {
+                "text": "",
+                "column": {
+                  "title": "Accountable",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Who Updates",
+                  "type": "people"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": "Cost",
+                "column": {
+                  "title": "Category",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "Hours",
+                "column": {
+                  "title": "Type",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "40",
+                "column": {
+                  "title": "Target",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "Low",
+                "column": {
+                  "title": "Goal Direction",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W1",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W2",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W3",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W4",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W5",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W6",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W7",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W8",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W9",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W10",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W11",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W12",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W13",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "Sum of OT hours across all Install techs from QuickBooks Time, weekly.",
+                "column": {
+                  "title": "How to Calculate",
+                  "type": "text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Quarter Average",
+                  "type": "formula"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "KPI Score (Out of 5)",
+                  "type": "formula"
+                }
+              },
+              {
+                "text": "2026",
+                "column": {
+                  "title": "Year",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "Not Reported",
+                "column": {
+                  "title": "Off Track?",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Consecutive Misses",
+                  "type": "numbers"
+                }
+              }
+            ]
+          },
+          {
+            "id": "12749206549",
+            "name": "Install Department Premium Hours",
+            "column_values": [
+              {
+                "text": "",
+                "column": {
+                  "title": "Accountable",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Who Updates",
+                  "type": "people"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": "Cost",
+                "column": {
+                  "title": "Category",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "Hours",
+                "column": {
+                  "title": "Type",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "10",
+                "column": {
+                  "title": "Target",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "Low",
+                "column": {
+                  "title": "Goal Direction",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W1",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W2",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W3",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W4",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W5",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W6",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W7",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W8",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W9",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W10",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W11",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W12",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W13",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "Sum of double-time and premium-rate hours from QuickBooks Time, weekly.",
+                "column": {
+                  "title": "How to Calculate",
+                  "type": "text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Quarter Average",
+                  "type": "formula"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "KPI Score (Out of 5)",
+                  "type": "formula"
+                }
+              },
+              {
+                "text": "2026",
+                "column": {
+                  "title": "Year",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "Not Reported",
+                "column": {
+                  "title": "Off Track?",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Consecutive Misses",
+                  "type": "numbers"
+                }
+              }
+            ]
+          },
+          {
+            "id": "12765274289",
+            "name": "Design/BOM Approved Before Install Start",
+            "column_values": [
+              {
+                "text": "",
+                "column": {
+                  "title": "Accountable",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Who Updates",
+                  "type": "people"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": "Quality",
+                "column": {
+                  "title": "Category",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "Percentage",
+                "column": {
+                  "title": "Type",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "100",
+                "column": {
+                  "title": "Target",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "High",
+                "column": {
+                  "title": "Goal Direction",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W1",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W2",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W3",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W4",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W5",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W6",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W7",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W8",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W9",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W10",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W11",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W12",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W13",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "Projects with approved Design/BOM at install start / projects starting. Source: board (2.1). Ties to Rock M3.",
+                "column": {
+                  "title": "How to Calculate",
+                  "type": "text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Quarter Average",
+                  "type": "formula"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "KPI Score (Out of 5)",
+                  "type": "formula"
+                }
+              },
+              {
+                "text": "2026",
+                "column": {
+                  "title": "Year",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "Not Reported",
+                "column": {
+                  "title": "Off Track?",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Consecutive Misses",
+                  "type": "numbers"
+                }
+              }
+            ]
+          },
+          {
+            "id": "12765274290",
+            "name": "Projects Closed Out within 10 Days",
+            "column_values": [
+              {
+                "text": "",
+                "column": {
+                  "title": "Accountable",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Who Updates",
+                  "type": "people"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": "Efficiency",
+                "column": {
+                  "title": "Category",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "Percentage",
+                "column": {
+                  "title": "Type",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "90",
+                "column": {
+                  "title": "Target",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "High",
+                "column": {
+                  "title": "Goal Direction",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W1",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W2",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W3",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W4",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W5",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W6",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W7",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W8",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W9",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W10",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W11",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W12",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W13",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "Projects reaching Close-out within 10 days of completion / projects completed. Source: board (7) Project Close-out. Ties to Rock M2.",
+                "column": {
+                  "title": "How to Calculate",
+                  "type": "text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Quarter Average",
+                  "type": "formula"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "KPI Score (Out of 5)",
+                  "type": "formula"
+                }
+              },
+              {
+                "text": "2026",
+                "column": {
+                  "title": "Year",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "Not Reported",
+                "column": {
+                  "title": "Off Track?",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Consecutive Misses",
+                  "type": "numbers"
+                }
+              }
+            ]
+          },
+          {
+            "id": "12765249070",
+            "name": "Install Gross Margin %",
+            "column_values": [
+              {
+                "text": "",
+                "column": {
+                  "title": "Accountable",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Who Updates",
+                  "type": "people"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": "Cost",
+                "column": {
+                  "title": "Category",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "Percentage",
+                "column": {
+                  "title": "Type",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Target",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "High",
+                "column": {
+                  "title": "Goal Direction",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W1",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W2",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W3",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W4",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W5",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W6",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W7",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W8",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W9",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W10",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W11",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W12",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "W13",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "(Revenue - Direct Cost) / Revenue on Install jobs billed this week. Source: QBO.",
+                "column": {
+                  "title": "How to Calculate",
+                  "type": "text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Quarter Average",
+                  "type": "formula"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "KPI Score (Out of 5)",
+                  "type": "formula"
+                }
+              },
+              {
+                "text": "2026",
+                "column": {
+                  "title": "Year",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": "Not Reported",
+                "column": {
+                  "title": "Off Track?",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Consecutive Misses",
+                  "type": "numbers"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rocks": {
+    "key": "rocks",
+    "id": "18425632638",
+    "label": "EOS-3 Rocks",
+    "board": {
+      "id": "18425632638",
+      "name": "(EOS-3) Install Rocks",
+      "columns": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "name"
+        },
+        {
+          "id": "person",
+          "title": "People",
+          "type": "people"
+        },
+        {
+          "id": "dropdown_mm60s4a5",
+          "title": "Quarter/Year",
+          "type": "dropdown"
+        },
+        {
+          "id": "subtasks_mkps8zm9",
+          "title": "Subitems",
+          "type": "subtasks"
+        },
+        {
+          "id": "long_text_mm60tpyj",
+          "title": "Measurable",
+          "type": "long_text"
+        },
+        {
+          "id": "long_text_mm60mr9a",
+          "title": "Notes",
+          "type": "long_text"
+        },
+        {
+          "id": "board_relation_mm6040gg",
+          "title": "CAPA Links",
+          "type": "board_relation"
+        },
+        {
+          "id": "board_relation_mm6063j4",
+          "title": "Department",
+          "type": "board_relation"
+        }
+      ],
+      "items_page": {
+        "items": [
+          {
+            "id": "12749390600",
+            "name": "M1: Task-Based Scheduling Live",
+            "column_values": [
+              {
+                "text": "",
+                "column": {
+                  "title": "People",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Q3, 2026",
+                "column": {
+                  "title": "Quarter/Year",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": "Move 100% of install scheduling off Excel to the task-based system by Sept 30.",
+                "column": {
+                  "title": "Measurable",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Notes",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "CAPA Links",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              }
+            ]
+          },
+          {
+            "id": "12749390604",
+            "name": "M2: Project Closeout Discipline",
+            "column_values": [
+              {
+                "text": "",
+                "column": {
+                  "title": "People",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Q3, 2026",
+                "column": {
+                  "title": "Quarter/Year",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": "Close out 100% of completed projects and warranty tickets within [X] days of completion.",
+                "column": {
+                  "title": "Measurable",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Notes",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "CAPA Links",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              }
+            ]
+          },
+          {
+            "id": "12749390608",
+            "name": "M3: Design / BOM Approval Gate",
+            "column_values": [
+              {
+                "text": "",
+                "column": {
+                  "title": "People",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Q3, 2026",
+                "column": {
+                  "title": "Quarter/Year",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": "Every project passes a Design/BOM approval gate before install; detail-drawing standard applied on LPA & 7th St.",
+                "column": {
+                  "title": "Measurable",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Notes",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "CAPA Links",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              }
+            ]
+          },
+          {
+            "id": "12749390612",
+            "name": "M4: Margin-Based Pricing",
+            "column_values": [
+              {
+                "text": "",
+                "column": {
+                  "title": "People",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Q3, 2026",
+                "column": {
+                  "title": "Quarter/Year",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": "Price 100% of jobs on margin to the floor, not markup.",
+                "column": {
+                  "title": "Measurable",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Notes",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "CAPA Links",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              }
+            ]
+          },
+          {
+            "id": "12749390616",
+            "name": "M5: Team Depth",
+            "column_values": [
+              {
+                "text": "",
+                "column": {
+                  "title": "People",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Q3, 2026",
+                "column": {
+                  "title": "Quarter/Year",
+                  "type": "dropdown"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": "Recruit and onboard ≥1 L2/L3 installer in Q3.",
+                "column": {
+                  "title": "Measurable",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Notes",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "CAPA Links",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "todos": {
+    "key": "todos",
+    "id": "18415782228",
+    "label": "EOS-4 To-Dos",
+    "board": {
+      "id": "18415782228",
+      "name": "(EOS-4) Install To-Dos",
+      "columns": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "name"
+        },
+        {
+          "id": "subtasks_mm3xfsvv",
+          "title": "Subitems",
+          "type": "subtasks"
+        },
+        {
+          "id": "multiple_person_mm3w4f29",
+          "title": "Accountable",
+          "type": "people"
+        },
+        {
+          "id": "multiple_person_mm3x1171",
+          "title": "Dependency",
+          "type": "people"
+        },
+        {
+          "id": "color_mm3wdae3",
+          "title": "Priority",
+          "type": "status"
+        },
+        {
+          "id": "color_mm3w3b8j",
+          "title": "Status",
+          "type": "status"
+        },
+        {
+          "id": "date_mm3wgpk3",
+          "title": "Next Action Date",
+          "type": "date"
+        },
+        {
+          "id": "date_mm3w4xg6",
+          "title": "Due Date",
+          "type": "date"
+        },
+        {
+          "id": "long_text_mm3wmrk6",
+          "title": "Task Description",
+          "type": "long_text"
+        },
+        {
+          "id": "board_relation_mm3w2jx6",
+          "title": "CAPA/SOP",
+          "type": "board_relation"
+        },
+        {
+          "id": "lookup_mm3wt03c",
+          "title": "Status",
+          "type": "mirror"
+        },
+        {
+          "id": "numeric_mm3xahxg",
+          "title": "Time Est. (Hrs.)",
+          "type": "numbers"
+        },
+        {
+          "id": "long_text_mm3xbjzr",
+          "title": "Resolution Notes",
+          "type": "long_text"
+        },
+        {
+          "id": "pulse_log_mm3xqc75",
+          "title": "Creation Log",
+          "type": "creation_log"
+        },
+        {
+          "id": "pulse_updated_mm3x8806",
+          "title": "Last Updated",
+          "type": "last_updated"
+        },
+        {
+          "id": "long_text_mm46vvjb",
+          "title": "Definition of Done",
+          "type": "long_text"
+        },
+        {
+          "id": "direct_doc_mm4w6pvz",
+          "title": "monday Doc v2",
+          "type": "direct_doc"
+        },
+        {
+          "id": "board_relation_mm50ppc4",
+          "title": "(0) Overall Project Tracker",
+          "type": "board_relation"
+        },
+        {
+          "id": "lookup_mm51han9",
+          "title": "Project Status",
+          "type": "mirror"
+        }
+      ],
+      "items_page": {
+        "items": [
+          {
+            "id": "12719533927",
+            "name": "Convert LPA Hours to Task Code Compatible",
+            "column_values": [
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": "Shamn Olavides",
+                "column": {
+                  "title": "Accountable",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Dependency",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "High",
+                "column": {
+                  "title": "Priority",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "Not Started",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Next Action Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "2026-08-06",
+                "column": {
+                  "title": "Due Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Task Description",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "CAPA/SOP",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Status",
+                  "type": "mirror"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Time Est. (Hrs.)",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Resolution Notes",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "2026-08-04 22:19:43 UTC",
+                "column": {
+                  "title": "Creation Log",
+                  "type": "creation_log"
+                }
+              },
+              {
+                "text": "2026-08-04 22:30:19 UTC",
+                "column": {
+                  "title": "Last Updated",
+                  "type": "last_updated"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Definition of Done",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "monday Doc v2",
+                  "type": "direct_doc"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "(0) Overall Project Tracker",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Project Status",
+                  "type": "mirror"
+                }
+              }
+            ]
+          },
+          {
+            "id": "12146831051",
+            "name": "Document Calidad Inventory - ladders , tools etc.",
+            "column_values": [
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": "Luis Gutierrez",
+                "column": {
+                  "title": "Accountable",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Sam Cortez, George Rezendes",
+                "column": {
+                  "title": "Dependency",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "High",
+                "column": {
+                  "title": "Priority",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "Done",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Next Action Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "2026-06-13 02:00",
+                "column": {
+                  "title": "Due Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Task Description",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "CAPA/SOP",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Status",
+                  "type": "mirror"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Time Est. (Hrs.)",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Resolution Notes",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "2026-05-30 17:44:56 UTC",
+                "column": {
+                  "title": "Creation Log",
+                  "type": "creation_log"
+                }
+              },
+              {
+                "text": "2026-06-13 15:30:44 UTC",
+                "column": {
+                  "title": "Last Updated",
+                  "type": "last_updated"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Definition of Done",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "monday Doc v2",
+                  "type": "direct_doc"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "(0) Overall Project Tracker",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Project Status",
+                  "type": "mirror"
+                }
+              }
+            ]
+          },
+          {
+            "id": "12146812620",
+            "name": "Start LMS Training Outline - Assign all employees 3 classes",
+            "column_values": [
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": "Luis Gutierrez",
+                "column": {
+                  "title": "Accountable",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Luis Gutierrez, Sam Cortez",
+                "column": {
+                  "title": "Dependency",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "High",
+                "column": {
+                  "title": "Priority",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "In Progress",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Next Action Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "2026-07-18",
+                "column": {
+                  "title": "Due Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Task Description",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "CAPA/SOP",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Status",
+                  "type": "mirror"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Time Est. (Hrs.)",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Resolution Notes",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "2026-05-30 17:45:19 UTC",
+                "column": {
+                  "title": "Creation Log",
+                  "type": "creation_log"
+                }
+              },
+              {
+                "text": "2026-07-16 20:19:40 UTC",
+                "column": {
+                  "title": "Last Updated",
+                  "type": "last_updated"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Definition of Done",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "monday Doc v2",
+                  "type": "direct_doc"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "(0) Overall Project Tracker",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Project Status",
+                  "type": "mirror"
+                }
+              }
+            ]
+          },
+          {
+            "id": "12157198545",
+            "name": "Homeaid contract review",
+            "column_values": [
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": "Luis Gutierrez",
+                "column": {
+                  "title": "Accountable",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Dependency",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Critical ⚠️️",
+                "column": {
+                  "title": "Priority",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "Done",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Next Action Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "2026-06-03",
+                "column": {
+                  "title": "Due Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Task Description",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "CAPA/SOP",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Status",
+                  "type": "mirror"
+                }
+              },
+              {
+                "text": ".5",
+                "column": {
+                  "title": "Time Est. (Hrs.)",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Resolution Notes",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "2026-06-01 14:48:21 UTC",
+                "column": {
+                  "title": "Creation Log",
+                  "type": "creation_log"
+                }
+              },
+              {
+                "text": "2026-06-03 20:47:59 UTC",
+                "column": {
+                  "title": "Last Updated",
+                  "type": "last_updated"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Definition of Done",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "monday Doc v2",
+                  "type": "direct_doc"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "(0) Overall Project Tracker",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Project Status",
+                  "type": "mirror"
+                }
+              }
+            ]
+          },
+          {
+            "id": "12159726958",
+            "name": "HACSJ work orders & billing — clear ALL overdue invoices + build & train team on the work-order process",
+            "column_values": [
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": "Luis Gutierrez",
+                "column": {
+                  "title": "Accountable",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Jay Kahlon",
+                "column": {
+                  "title": "Dependency",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Critical ⚠️️",
+                "column": {
+                  "title": "Priority",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "In Progress",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "2026-06-06",
+                "column": {
+                  "title": "Next Action Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "2026-06-11",
+                "column": {
+                  "title": "Due Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "ROOT-CAUSE / PROCESS ITEM for the HACSJ billing mess.\n\nThe actual work-order execution is now split into two dated items:\n- Phase 1: first 5 work orders billed by Fri 6/19\n- Phase 2: all remaining work orders billed by Fri 6/26\n\nThis item now tracks the FIX so it never recurs: Luis develops a documented HACSJ work-order process (received -> performed -> closed -> invoiced -> collected) and TRAINS the install team on it. Loop in Jay. Some invoices were ~6 months / $10K+ overdue — the process gap is the real problem.",
+                "column": {
+                  "title": "Task Description",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "CAPA/SOP",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Status",
+                  "type": "mirror"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Time Est. (Hrs.)",
+                  "type": "numbers"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Resolution Notes",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "2026-06-01 17:35:25 UTC",
+                "column": {
+                  "title": "Creation Log",
+                  "type": "creation_log"
+                }
+              },
+              {
+                "text": "2026-06-17 20:51:21 UTC",
+                "column": {
+                  "title": "Last Updated",
+                  "type": "last_updated"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Definition of Done",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "monday Doc v2",
+                  "type": "direct_doc"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "(0) Overall Project Tracker",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Project Status",
+                  "type": "mirror"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "capa": {
+    "key": "capa",
+    "id": "18425615173",
+    "label": "EOS-5 CAPA/IDS",
+    "board": {
+      "id": "18425615173",
+      "name": "(EOS-5) Install CAPA/IDS",
+      "columns": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "name"
+        },
+        {
+          "id": "multiple_person_mm60qcgz",
+          "title": "Owner",
+          "type": "people"
+        },
+        {
+          "id": "board_relation_mm60t7y0",
+          "title": "Department",
+          "type": "board_relation"
+        },
+        {
+          "id": "color_mm60kxcb",
+          "title": "Issue Type",
+          "type": "status"
+        },
+        {
+          "id": "color_mm604nfa",
+          "title": "Priority",
+          "type": "status"
+        },
+        {
+          "id": "color_mm60sfgc",
+          "title": "Repeat Issue?",
+          "type": "status"
+        },
+        {
+          "id": "color_mm60h4pn",
+          "title": "IDS Status",
+          "type": "status"
+        },
+        {
+          "id": "long_text_mm60j98t",
+          "title": "Issue Description (I)",
+          "type": "long_text"
+        },
+        {
+          "id": "long_text_mm6066ct",
+          "title": "Root Cause / Discussion (D)",
+          "type": "long_text"
+        },
+        {
+          "id": "long_text_mm60k1sy",
+          "title": "Solution / Decision (S)",
+          "type": "long_text"
+        },
+        {
+          "id": "color_mm60x4b8",
+          "title": "Exit Route",
+          "type": "status"
+        },
+        {
+          "id": "board_relation_mm6063fd",
+          "title": "Source Board",
+          "type": "board_relation"
+        },
+        {
+          "id": "board_relation_mm60xmcy",
+          "title": "link to (EOS-4) Install To-Dos",
+          "type": "board_relation"
+        }
+      ],
+      "items_page": {
+        "items": [
+          {
+            "id": "12748567757",
+            "name": "Headline — two foremen asked why the schedule board disagrees with their paper schedule",
+            "column_values": [
+              {
+                "text": "",
+                "column": {
+                  "title": "Owner",
+                  "type": "people"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": "People",
+                "column": {
+                  "title": "Issue Type",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "Undefined",
+                "column": {
+                  "title": "Priority",
+                  "type": "status"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Repeat Issue?",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "Undefined",
+                "column": {
+                  "title": "IDS Status",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Issue Description (I)",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Root Cause / Discussion (D)",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Solution / Decision (S)",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Exit Route",
+                  "type": "status"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Source Board",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "link to (EOS-4) Install To-Dos",
+                  "type": "board_relation"
+                }
+              }
+            ]
+          },
+          {
+            "id": "12748602199",
+            "name": "Headline — St. Mary's PM sent written commendation on Phase 1 punch closure",
+            "column_values": [
+              {
+                "text": "",
+                "column": {
+                  "title": "Owner",
+                  "type": "people"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": "Client",
+                "column": {
+                  "title": "Issue Type",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "Undefined",
+                "column": {
+                  "title": "Priority",
+                  "type": "status"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Repeat Issue?",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "Undefined",
+                "column": {
+                  "title": "IDS Status",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Issue Description (I)",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Root Cause / Discussion (D)",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Solution / Decision (S)",
+                  "type": "long_text"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Exit Route",
+                  "type": "status"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Source Board",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "link to (EOS-4) Install To-Dos",
+                  "type": "board_relation"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sops": {
+    "key": "sops",
+    "id": "18425640592",
+    "label": "EOS-6 SOP Manager",
+    "board": {
+      "id": "18425640592",
+      "name": "(EOS-6) Install SOP Manager",
+      "columns": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "name"
+        },
+        {
+          "id": "color_mm60ddf7",
+          "title": "Priority",
+          "type": "status"
+        },
+        {
+          "id": "text_mm60j46v",
+          "title": "Priority Order",
+          "type": "text"
+        },
+        {
+          "id": "multiple_person_mm60c5jz",
+          "title": "Approvers",
+          "type": "people"
+        },
+        {
+          "id": "color_mm60a61t",
+          "title": "Status",
+          "type": "status"
+        },
+        {
+          "id": "date_mm60pq24",
+          "title": "Rollout Target Date",
+          "type": "date"
+        },
+        {
+          "id": "doc_mm6045vy",
+          "title": "SOP File",
+          "type": "doc"
+        },
+        {
+          "id": "link_mm60h7gz",
+          "title": "Loom Video Link",
+          "type": "link"
+        },
+        {
+          "id": "pulse_log_mm60m1we",
+          "title": "Creation log",
+          "type": "creation_log"
+        },
+        {
+          "id": "pulse_updated_mm60pqma",
+          "title": "Last updated",
+          "type": "last_updated"
+        },
+        {
+          "id": "direct_doc_mm60f1kf",
+          "title": "monday Doc v2",
+          "type": "direct_doc"
+        },
+        {
+          "id": "subtasks_mm609f8y",
+          "title": "Subitems",
+          "type": "subtasks"
+        },
+        {
+          "id": "board_relation_mm60f08e",
+          "title": "Department",
+          "type": "board_relation"
+        },
+        {
+          "id": "board_relation_mm60sa2z",
+          "title": "Accountable Seat",
+          "type": "board_relation"
+        },
+        {
+          "id": "multiple_person_mm604x6",
+          "title": "Owner",
+          "type": "people"
+        }
+      ],
+      "items_page": {
+        "items": [
+          {
+            "id": "11801869816",
+            "name": "Project Kick-off SOP",
+            "column_values": [
+              {
+                "text": "New",
+                "column": {
+                  "title": "Priority",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "06",
+                "column": {
+                  "title": "Priority Order",
+                  "type": "text"
+                }
+              },
+              {
+                "text": "Jay Kahlon",
+                "column": {
+                  "title": "Approvers",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Ready to Review",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "2026-06-15",
+                "column": {
+                  "title": "Rollout Target Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "SOP File",
+                  "type": "doc"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Loom Video Link",
+                  "type": "link"
+                }
+              },
+              {
+                "text": "2026-04-21 01:15:01 UTC",
+                "column": {
+                  "title": "Creation log",
+                  "type": "creation_log"
+                }
+              },
+              {
+                "text": "2026-06-04 17:42:10 UTC",
+                "column": {
+                  "title": "Last updated",
+                  "type": "last_updated"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "monday Doc v2",
+                  "type": "direct_doc"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Accountable Seat",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Owner",
+                  "type": "people"
+                }
+              }
+            ]
+          },
+          {
+            "id": "11813318211",
+            "name": "COI / Insurance Certificate Issuance SOP",
+            "column_values": [
+              {
+                "text": "New",
+                "column": {
+                  "title": "Priority",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Priority Order",
+                  "type": "text"
+                }
+              },
+              {
+                "text": "Jay Kahlon",
+                "column": {
+                  "title": "Approvers",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Working on it",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "2026-08-17",
+                "column": {
+                  "title": "Rollout Target Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "SOP File",
+                  "type": "doc"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Loom Video Link",
+                  "type": "link"
+                }
+              },
+              {
+                "text": "2026-04-22 04:09:13 UTC",
+                "column": {
+                  "title": "Creation log",
+                  "type": "creation_log"
+                }
+              },
+              {
+                "text": "2026-07-16 19:11:46 UTC",
+                "column": {
+                  "title": "Last updated",
+                  "type": "last_updated"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "monday Doc v2",
+                  "type": "direct_doc"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Accountable Seat",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Owner",
+                  "type": "people"
+                }
+              }
+            ]
+          },
+          {
+            "id": "11813306920",
+            "name": "Prevailing Wage / DIR Registration SOP",
+            "column_values": [
+              {
+                "text": "New",
+                "column": {
+                  "title": "Priority",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Priority Order",
+                  "type": "text"
+                }
+              },
+              {
+                "text": "Jay Kahlon",
+                "column": {
+                  "title": "Approvers",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Working on it",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "2026-08-17",
+                "column": {
+                  "title": "Rollout Target Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "SOP File",
+                  "type": "doc"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Loom Video Link",
+                  "type": "link"
+                }
+              },
+              {
+                "text": "2026-04-22 04:09:20 UTC",
+                "column": {
+                  "title": "Creation log",
+                  "type": "creation_log"
+                }
+              },
+              {
+                "text": "2026-07-16 19:11:44 UTC",
+                "column": {
+                  "title": "Last updated",
+                  "type": "last_updated"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "monday Doc v2",
+                  "type": "direct_doc"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Accountable Seat",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Owner",
+                  "type": "people"
+                }
+              }
+            ]
+          },
+          {
+            "id": "11113761864",
+            "name": "Project Planning & Scheduling SOP",
+            "column_values": [
+              {
+                "text": "New",
+                "column": {
+                  "title": "Priority",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "08",
+                "column": {
+                  "title": "Priority Order",
+                  "type": "text"
+                }
+              },
+              {
+                "text": "Jay Kahlon",
+                "column": {
+                  "title": "Approvers",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Working on it",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "2026-06-22",
+                "column": {
+                  "title": "Rollout Target Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "SOP File",
+                  "type": "doc"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Loom Video Link",
+                  "type": "link"
+                }
+              },
+              {
+                "text": "2026-01-27 20:08:13 UTC",
+                "column": {
+                  "title": "Creation log",
+                  "type": "creation_log"
+                }
+              },
+              {
+                "text": "2026-06-04 17:42:42 UTC",
+                "column": {
+                  "title": "Last updated",
+                  "type": "last_updated"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "monday Doc v2",
+                  "type": "direct_doc"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Accountable Seat",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Owner",
+                  "type": "people"
+                }
+              }
+            ]
+          },
+          {
+            "id": "9905070252",
+            "name": "Project Hour Tracking SOP",
+            "column_values": [
+              {
+                "text": "New",
+                "column": {
+                  "title": "Priority",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Priority Order",
+                  "type": "text"
+                }
+              },
+              {
+                "text": "Jay Kahlon",
+                "column": {
+                  "title": "Approvers",
+                  "type": "people"
+                }
+              },
+              {
+                "text": "Ready to Review",
+                "column": {
+                  "title": "Status",
+                  "type": "status"
+                }
+              },
+              {
+                "text": "2026-06-22",
+                "column": {
+                  "title": "Rollout Target Date",
+                  "type": "date"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "SOP File",
+                  "type": "doc"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Loom Video Link",
+                  "type": "link"
+                }
+              },
+              {
+                "text": "2025-08-26 20:17:27 UTC",
+                "column": {
+                  "title": "Creation log",
+                  "type": "creation_log"
+                }
+              },
+              {
+                "text": "2026-08-07 20:36:50 UTC",
+                "column": {
+                  "title": "Last updated",
+                  "type": "last_updated"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "monday Doc v2",
+                  "type": "direct_doc"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Subitems",
+                  "type": "subtasks"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Department",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": null,
+                "column": {
+                  "title": "Accountable Seat",
+                  "type": "board_relation"
+                }
+              },
+              {
+                "text": "",
+                "column": {
+                  "title": "Owner",
+                  "type": "people"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

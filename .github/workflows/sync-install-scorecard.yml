@@ -1,0 +1,45 @@
+name: Sync Install scorecard
+
+# Reliable full sync — runs on GitHub (up to 2 hours), not Vercel (60s limit).
+on:
+  schedule:
+    # 13:00 UTC ≈ 6:00 AM US Pacific (PDT)
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: install-scorecard-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify secrets
+        env:
+          MONDAY_API_TOKEN: ${{ secrets.MONDAY_API_TOKEN }}
+        run: |
+          if [ -z "$MONDAY_API_TOKEN" ]; then
+            echo "::error::MONDAY_API_TOKEN is not set. GitHub → Settings → Secrets → Actions"
+            exit 1
+          fi
+          echo "MONDAY_API_TOKEN is configured."
+
+      - name: Run Install scorecard sync
+        env:
+          MONDAY_API_TOKEN: ${{ secrets.MONDAY_API_TOKEN }}
+        run: npm run sync

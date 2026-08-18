@@ -1,0 +1,113 @@
+{
+  "boards": {
+    "accountability": {
+      "id": "18426891624",
+      "name": "[SYNC] Install Accountability Snapshot"
+    },
+    "weeklyKpiHistory": {
+      "id": "18426891687",
+      "name": "[SYNC] Install Weekly KPI History"
+    },
+    "rocks": {
+      "id": "18426891743",
+      "name": "[SYNC] Install Rocks Snapshot"
+    },
+    "todos": {
+      "id": "18426891849",
+      "name": "[SYNC] Install To-Dos Snapshot"
+    },
+    "capa": {
+      "id": "18426891902",
+      "name": "[SYNC] Install CAPA Snapshot"
+    },
+    "sops": {
+      "id": "18426891965",
+      "name": "[SYNC] Install SOPs Snapshot"
+    },
+    "syncLog": {
+      "id": "18426892002",
+      "name": "[SYNC] Install Sync Log"
+    }
+  },
+  "columnIds": {
+    "accountability": {
+      "Source Item ID": "text_mm6a40x9",
+      "Department": "text_mm6aag04",
+      "Name": "text_mm6a4wz3",
+      "Position": "text_mm6a28vn",
+      "Status": "text_mm6apc1q",
+      "Has Chart Doc": "text_mm6a5c80",
+      "Snapshot At": "date_mm6a6b3t"
+    },
+    "weeklyKpiHistory": {
+      "KPI Key": "text_mm6acd05",
+      "KPI Name": "text_mm6a4pj",
+      "Department": "text_mm6a31c6",
+      "Category": "text_mm6at7ke",
+      "Week": "text_mm6a2d7j",
+      "Actual Value": "numeric_mm6azedp",
+      "Target": "numeric_mm6asb9f",
+      "KPI Score": "numeric_mm6a67dc",
+      "Goal Direction": "text_mm6apvbr",
+      "Off Track": "text_mm6acst6",
+      "Year": "text_mm6ahdbr",
+      "Source Item ID": "text_mm6af935",
+      "Synced At": "date_mm6avdbm"
+    },
+    "rocks": {
+      "Source Item ID": "text_mm6a6jnq",
+      "Department": "text_mm6asvq6",
+      "Rock Name": "text_mm6a6xam",
+      "Quarter": "text_mm6ae5ct",
+      "Owner": "text_mm6ahvd",
+      "Measurable": "long_text_mm6a640y",
+      "Group": "text_mm6a84p8",
+      "Subitem Count": "numeric_mm6a2r3q",
+      "Rock Status": "text_mm6a4zzg",
+      "Snapshot At": "date_mm6a9jkz"
+    },
+    "todos": {
+      "Source Item ID": "text_mm6ax6pg",
+      "Department": "text_mm6a7cpz",
+      "Accountable": "text_mm6acd0y",
+      "Priority": "text_mm6a17sy",
+      "Status": "text_mm6ae4x7",
+      "Due Date": "date_mm6abn11",
+      "Next Action Date": "date_mm6acrj4",
+      "Due Bucket": "text_mm6agxv5",
+      "Task Description": "long_text_mm6avkff",
+      "Snapshot At": "date_mm6aze9h"
+    },
+    "capa": {
+      "Source Item ID": "text_mm6aeh66",
+      "Department": "text_mm6aaa40",
+      "Owner": "text_mm6a8zvx",
+      "Issue Type": "text_mm6adqr9",
+      "Priority": "text_mm6a8ktk",
+      "IDS Status": "text_mm6ae4d9",
+      "Repeat Issue": "text_mm6ae19a",
+      "Exit Route": "text_mm6axqhz",
+      "Issue Description": "long_text_mm6a7ay6",
+      "Snapshot At": "date_mm6ay5e4"
+    },
+    "sops": {
+      "Source Item ID": "text_mm6ap2js",
+      "Department": "text_mm6av84e",
+      "SOP Name": "text_mm6art8v",
+      "Priority": "text_mm6aam8m",
+      "Status": "text_mm6a4n9f",
+      "Owner": "text_mm6a1mtm",
+      "Rollout Target Date": "date_mm6ay838",
+      "Snapshot At": "date_mm6anb56"
+    },
+    "syncLog": {
+      "Run ID": "text_mm6ah4h8",
+      "Started": "date_mm6ayrpe",
+      "Finished": "date_mm6a6w5",
+      "Status": "text_mm6agjpv",
+      "Boards Pulled": "long_text_mm6aw4mh",
+      "Items Written": "numeric_mm6agfva",
+      "Errors": "long_text_mm6anery"
+    }
+  }
+}
