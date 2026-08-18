@@ -61,8 +61,10 @@ export function LoginForm() {
             <BrandLogo variant="login" />
 
             <div className="login-brand-copy">
-              <p className="login-brand-eyebrow">Install Department</p>
-              <h1 className="login-brand-title">EOS L10 Scorecard</h1>
+              <div className="login-product-header">
+                <span className="install-product-badge">Install</span>
+                <h1 className="login-brand-title">EOS L10 Scorecard</h1>
+              </div>
               <p className="login-brand-desc">
                 Executive command center for Install accountability, weekly metrics, rocks, and
                 operations.

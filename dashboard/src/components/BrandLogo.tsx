@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 type BrandLogoProps = {
-  /** sidebar = dashboard nav; login = centered on auth page */
+  /** sidebar = dashboard nav with product line; login = logo only */
   variant?: 'sidebar' | 'login';
 };
 
@@ -17,20 +17,18 @@ export function BrandLogo({ variant = 'sidebar' }: BrandLogoProps) {
         width={220}
         height={52}
         className={`brand-logo-img h-auto object-contain ${
-          isLogin ? 'mx-auto max-w-[200px] w-full' : 'w-full max-w-[210px] object-left'
+          isLogin ? 'mx-auto max-w-[200px] w-full md:mx-0' : 'w-full max-w-[210px] object-left'
         }`}
         priority
       />
-      <div
-        className={`install-product-line mt-3 flex items-center gap-2 ${
-          isLogin ? 'justify-center' : ''
-        }`}
-      >
-        <span className="install-product-badge">Install</span>
-        <span className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-[var(--gold)]">
-          EOS L10 Scorecard
-        </span>
-      </div>
+      {!isLogin && (
+        <div className="install-product-line mt-3 flex items-center gap-2">
+          <span className="install-product-badge">Install</span>
+          <span className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-[var(--gold)]">
+            EOS L10 Scorecard
+          </span>
+        </div>
+      )}
     </div>
   );
 }
