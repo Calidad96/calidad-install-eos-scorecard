@@ -2,7 +2,6 @@
 
 import { BrandLogo } from './BrandLogo';
 import {
-  MEETINGS_PLACEHOLDER,
   NAV_GROUPS,
   getTab,
   type TabCounts,
@@ -11,7 +10,6 @@ import {
 import {
   AlertTriangle,
   BookOpen,
-  CalendarClock,
   CheckSquare,
   Database,
   LayoutDashboard,
@@ -104,20 +102,6 @@ export function Sidebar({
             </div>
           </div>
         ))}
-
-        <div
-          className="mt-1 flex items-center gap-2 rounded-lg px-3 py-2 text-[var(--muted)] opacity-50"
-          title={`${MEETINGS_PLACEHOLDER.note} — placeholder only, not clickable`}
-        >
-          <CalendarClock size={15} />
-          <span className="min-w-0 flex-1 truncate text-[11px] font-medium">
-            {MEETINGS_PLACEHOLDER.label}
-            <span className="ml-1 text-[10px] font-normal text-[var(--muted)]">(soon)</span>
-          </span>
-          <span className="shrink-0 rounded bg-[var(--hover-row)] px-1.5 py-0.5 text-[9px] font-bold">
-            {MEETINGS_PLACEHOLDER.boardCode}
-          </span>
-        </div>
       </nav>
 
       <div className="shrink-0 border-t border-[var(--border)] p-2.5 space-y-1.5">

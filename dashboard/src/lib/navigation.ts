@@ -130,9 +130,3 @@ export const NAV_GROUPS = [
   },
   { label: 'System', tabs: ['sync-log'] as TabId[] },
 ];
-
-export const MEETINGS_PLACEHOLDER = {
-  label: 'Meetings',
-  boardCode: '7.1 / 7.2',
-  note: 'EOS meeting cadence (7.1) and meeting log (7.2) — not built yet',
-};
