@@ -1,9 +1,9 @@
 # Install EOS Scorecard
 
-Separate from SOC/STOS — unified **Install** department EOS L10 scorecard.
+Unified **Install** department EOS L10 scorecard.
 
-**Repo name:** `calidad-install-eos-scorecard`  
-**Full deploy guide:** [DEPLOY.md](./DEPLOY.md)
+**Repo:** `Calidad96/calidad-install-eos-scorecard`  
+**Deploy guide:** [DEPLOY.md](./DEPLOY.md)
 
 ## Quick start
 
@@ -15,8 +15,7 @@ cd dashboard && npm install && npm run dev
 ## Auto sync
 
 - **Daily:** GitHub Actions cron (~6 AM Pacific)
-- **Manual:** Dashboard → Sync & Data → **Update data now**
-- Same architecture as SOC/STOS (GitHub Actions, not Vercel)
+- **Manual:** GitHub Actions → Run workflow (or dashboard button if `GITHUB_SYNC_TOKEN` is set)
 
 ## Source boards
 

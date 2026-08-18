@@ -25,10 +25,10 @@ export function CapaTab({ data }: { data: ScorecardData }) {
           <DonutChart data={idsData} centerValue={c.open} centerLabel="Open" />
           <StatusLegend items={idsData} />
         </Panel>
-        <Panel title="What is Kappa?" accent="gold">
+        <Panel title="What is CAPA?" accent="gold">
           <p className="text-[13px] leading-relaxed text-[var(--muted)]">
             CAPA/IDS captures problems and issues from L10 meetings. Open items need Identify, Discuss,
-            or Solve — same pattern as your SOC/STOS CAPA tab, scoped to Install.
+            or Solve — tracked here for the Install department.
           </p>
         </Panel>
       </PanelGrid>

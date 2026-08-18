@@ -66,18 +66,15 @@ export function SyncControls({ onSyncComplete }: { onSyncComplete?: () => void }
   const running = syncing || status?.githubRunning;
 
   return (
-    <Panel title="Auto Sync" subtitle="Same pattern as SOC/STOS — GitHub Actions, no Vercel timeout" accent="green">
+    <Panel title="Auto Sync" subtitle="Daily GitHub Actions sync — full run, no timeout limits" accent="green">
       <p className="mb-4 text-[13px] leading-relaxed text-[var(--muted)]">
         Pulls all 6 Install EOS boards from Monday into <strong className="text-[var(--ink)]">[SYNC] Install</strong>{' '}
-        hub boards. Scheduled daily; use the button below for an immediate update.
+        hub boards. Scheduled daily; use the button below or GitHub Actions for an immediate update.
       </p>
 
       <div className="mb-4 flex flex-wrap gap-2 text-[12px] text-[var(--muted)]">
         <span className="rounded-lg border border-[var(--border)] bg-[var(--card)] px-3 py-1.5">
-          {status?.schedule ?? 'Daily cron + manual'}
-        </span>
-        <span className="rounded-lg border border-[var(--border)] bg-[var(--card)] px-3 py-1.5">
-          GitHub token: {status?.githubTokenConfigured ? 'Configured' : 'Not set on Vercel'}
+          {status?.schedule ?? 'Daily ~6:00 AM Pacific + manual'}
         </span>
       </div>
 
@@ -94,15 +91,22 @@ export function SyncControls({ onSyncComplete }: { onSyncComplete?: () => void }
       )}
 
       <div className="flex flex-wrap items-center gap-3">
-        <button
-          type="button"
-          onClick={runSync}
-          disabled={running}
-          className="inline-flex items-center gap-2 rounded-xl bg-[var(--royal)] px-4 py-2.5 text-[13px] font-semibold text-white shadow-sm transition hover:brightness-105 disabled:opacity-50"
-        >
-          {running ? <Loader2 size={16} className="animate-spin" /> : <RefreshCw size={16} />}
-          {running ? 'Syncing on GitHub…' : 'Update data now'}
-        </button>
+        {status?.githubTokenConfigured ? (
+          <button
+            type="button"
+            onClick={runSync}
+            disabled={running}
+            className="inline-flex items-center gap-2 rounded-xl bg-[var(--royal)] px-4 py-2.5 text-[13px] font-semibold text-white shadow-sm transition hover:brightness-105 disabled:opacity-50"
+          >
+            {running ? <Loader2 size={16} className="animate-spin" /> : <RefreshCw size={16} />}
+            {running ? 'Syncing on GitHub…' : 'Update data now'}
+          </button>
+        ) : (
+          <p className="text-[13px] text-[var(--muted)]">
+            For a manual sync, open GitHub Actions and click <strong className="text-[var(--ink)]">Run workflow</strong>.
+            Daily auto-sync runs automatically.
+          </p>
+        )}
 
         {status?.githubActionsUrl && (
           <a

@@ -15,6 +15,7 @@ import {
   CheckSquare,
   Database,
   LayoutDashboard,
+  LogOut,
   Mountain,
   RefreshCw,
   Target,
@@ -136,7 +137,7 @@ export function Sidebar({
         </div>
       </nav>
 
-      <div className="border-t border-[var(--border)] p-3">
+      <div className="border-t border-[var(--border)] p-3 space-y-2">
         <button
           type="button"
           onClick={onRefresh}
@@ -145,6 +146,17 @@ export function Sidebar({
         >
           <RefreshCw size={14} className={refreshing ? 'animate-spin' : ''} />
           {refreshing ? 'Refreshing…' : 'Refresh data'}
+        </button>
+        <button
+          type="button"
+          onClick={async () => {
+            await fetch('/api/auth/logout', { method: 'POST' });
+            window.location.href = '/login';
+          }}
+          className="flex w-full items-center justify-center gap-2 rounded-xl border border-[var(--border)] bg-[var(--card)] px-3 py-2.5 text-[12px] font-semibold text-[var(--muted)] transition hover:border-[var(--border-light)] hover:bg-[var(--hover-row)] hover:text-[var(--ink)]"
+        >
+          <LogOut size={14} />
+          Sign out
         </button>
       </div>
     </aside>
