@@ -22,7 +22,7 @@ export function BrandLogo({ variant = 'sidebar' }: BrandLogoProps) {
         priority
       />
 
-      <div className={`product-label ${isLogin ? 'product-label--login' : 'product-label--sidebar mt-3'}`}>
+      <div className={`product-label ${isLogin ? 'product-label--login' : 'product-label--sidebar mt-2'}`}>
         <p className="product-label-dept">Install</p>
         <p className="product-label-title">EOS L10 Scorecard</p>
       </div>
