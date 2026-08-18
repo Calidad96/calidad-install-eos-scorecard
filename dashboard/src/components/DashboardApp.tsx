@@ -20,11 +20,13 @@ import { TodosTab } from './tabs/TodosTab';
 import { CapaTab } from './tabs/CapaTab';
 import { SopsTab } from './tabs/SopsTab';
 import { SyncLogTab } from './tabs/SyncLogTab';
+import { parseFetchError } from '@/lib/client-api-error';
 
 export function DashboardApp() {
   const [tab, setTab] = useState<TabId>('overview');
   const [data, setData] = useState<ScorecardData | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [errorAction, setErrorAction] = useState<'retry' | 'login'>('retry');
   const [loading, setLoading] = useState(true);
   const [weekFilter, setWeekFilter] = useState('current');
   const [weekInitialized, setWeekInitialized] = useState(false);
@@ -34,10 +36,18 @@ export function DashboardApp() {
     setError(null);
     try {
       const res = await fetch('/api/scorecard', { cache: 'no-store' });
-      if (!res.ok) throw new Error(await res.text());
+      if (!res.ok) {
+        const parsed = await parseFetchError(res);
+        if (parsed.redirectToLogin) {
+          window.location.href = '/login';
+          return;
+        }
+        setErrorAction('retry');
+        throw new Error(parsed.message);
+      }
       setData(await res.json());
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to load scorecard');
+      setError(err instanceof Error ? err.message : 'Could not load the scorecard. Please try again.');
     } finally {
       if (!quiet) setLoading(false);
     }
@@ -86,15 +96,24 @@ export function DashboardApp() {
     return (
       <div className="flex min-h-screen items-center justify-center bg-[var(--bg)] p-8">
         <div className="card-surface max-w-md p-8 text-center">
-          <h2 className="font-display text-lg font-bold text-[var(--red)]">Dashboard Error</h2>
-          <p className="mt-2 text-sm text-[var(--muted)]">{error}</p>
-          <button
-            type="button"
-            onClick={() => load()}
-            className="mt-4 rounded-xl bg-[var(--royal)] px-4 py-2 text-sm font-semibold text-white"
-          >
-            Retry
-          </button>
+          <h2 className="font-display text-lg font-bold text-[var(--ink)]">Unable to load dashboard</h2>
+          <p className="mt-3 text-sm leading-relaxed text-[var(--muted)]">{error}</p>
+          {errorAction === 'login' ? (
+            <a
+              href="/login"
+              className="mt-5 inline-flex rounded-xl bg-[var(--royal)] px-4 py-2.5 text-sm font-semibold text-white"
+            >
+              Sign in
+            </a>
+          ) : (
+            <button
+              type="button"
+              onClick={() => load()}
+              className="mt-5 rounded-xl bg-[var(--royal)] px-4 py-2.5 text-sm font-semibold text-white"
+            >
+              Try again
+            </button>
+          )}
         </div>
       </div>
     );

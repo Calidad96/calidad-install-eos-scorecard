@@ -36,7 +36,10 @@ export async function middleware(request: NextRequest) {
   }
 
   if (pathname.startsWith('/api/')) {
-    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    return NextResponse.json(
+      { error: 'Your session has expired. Please sign in again.' },
+      { status: 401 }
+    );
   }
 
   const loginUrl = new URL('/login', request.url);
