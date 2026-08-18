@@ -134,5 +134,5 @@ export const NAV_GROUPS = [
 export const MEETINGS_PLACEHOLDER = {
   label: 'Meetings',
   boardCode: '7.1 / 7.2',
-  note: 'Meeting cadence (7.1) and meeting log (7.2) — coming soon',
+  note: 'EOS meeting cadence (7.1) and meeting log (7.2) — not built yet',
 };

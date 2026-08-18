@@ -107,11 +107,14 @@ export function Sidebar({
 
         <div
           className="mt-1 flex items-center gap-2 rounded-lg px-3 py-2 text-[var(--muted)] opacity-50"
-          title={MEETINGS_PLACEHOLDER.note}
+          title={`${MEETINGS_PLACEHOLDER.note} — placeholder only, not clickable`}
         >
           <CalendarClock size={15} />
-          <span className="truncate text-[11px] font-medium">{MEETINGS_PLACEHOLDER.label}</span>
-          <span className="ml-auto shrink-0 rounded bg-[var(--hover-row)] px-1.5 py-0.5 text-[9px] font-bold">
+          <span className="min-w-0 flex-1 truncate text-[11px] font-medium">
+            {MEETINGS_PLACEHOLDER.label}
+            <span className="ml-1 text-[10px] font-normal text-[var(--muted)]">(soon)</span>
+          </span>
+          <span className="shrink-0 rounded bg-[var(--hover-row)] px-1.5 py-0.5 text-[9px] font-bold">
             {MEETINGS_PLACEHOLDER.boardCode}
           </span>
         </div>
@@ -122,10 +125,11 @@ export function Sidebar({
           type="button"
           onClick={onRefresh}
           disabled={refreshing}
+          title="Reload dashboard from Monday hub boards (does not run a full sync)"
           className="flex w-full items-center justify-center gap-2 rounded-xl border border-[var(--border)] bg-[var(--card)] px-3 py-2 text-[12px] font-semibold text-[var(--muted)] transition hover:border-[var(--border-light)] hover:bg-[var(--hover-row)] hover:text-[var(--ink)] disabled:opacity-50"
         >
           <RefreshCw size={14} className={refreshing ? 'animate-spin' : ''} />
-          {refreshing ? 'Refreshing…' : 'Refresh data'}
+          {refreshing ? 'Reloading…' : 'Reload view'}
         </button>
         <button
           type="button"
